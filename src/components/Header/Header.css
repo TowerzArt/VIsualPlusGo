@@ -43,3 +43,9 @@
   width: auto;    /* mantiene la proporción */
   display: block;
 }
+
+@media (max-width: 768px) {
+  .nav ul li:not(:last-child) {
+    display: none;
+  }
+}
