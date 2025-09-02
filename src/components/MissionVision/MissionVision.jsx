@@ -8,11 +8,11 @@ export default function MissionVision() {
       <h1 className="mv-title">VisualPlusGo</h1>
 
             <img src={logovisual} alt="MiMarca" className="logo-img" />
-      <p className="mv-intro">Somosuna empresa Lojanafundada enel año 2008, creadores deSoftware de
+      <p className="mv-intro">Somos una empresa Lojana fundada enel año 2008, creadores de Software de
 última tecnología, nuestra actividad gira alrededor de sistemas de gestión
 comercial, implementando soluciones informáticas para pequeñas, medianas y
 grandes empresas del Ecuador. Brindamos sistemas de gestión comercial, ventas
-móviles, facturación electrónica e inteligencia de negocios<span>Asesoría en el Manejo del Sistema Visual Plus</span>  </p>
+móviles, facturación electrónica e inteligencia de negocios </p>
 
       <div className="mv-grid">
         <div className="mv-card">
