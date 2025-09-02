@@ -13,7 +13,7 @@ const Hero = () => {
             <a href="#contacto" className="cta-button">Comenzar ahora</a>
           </div>
           <div className="hero-image">
-            <img src={start}   alt={"Visual Plus"} /> 
+            <img src={start}  alt={"Visual Plus"} /> 
           </div>
         </div>
       </div>

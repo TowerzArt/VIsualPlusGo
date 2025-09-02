@@ -1,32 +1,32 @@
 import React from "react";
 import "./MissionVision.css";
+import logovisual from '../../assets/logos/alas-D.png'
 
 export default function MissionVision() {
   return (
     <section className="mv-container">
       <h1 className="mv-title">VisualPlusGo</h1>
-      <p className="mv-intro">
-        Brindamos <span>Asesoría en el Manejo del Sistema Visual Plus</span> (antiguo Visual FAC),
-        así como en tributos y finanzas. Ofrecemos paquetes cómodos para grandes, medianas y pequeñas empresas en Ecuador,
-        respondiendo a las necesidades específicas de cada uno de nuestros clientes.
-      </p>
+
+            <img src={logovisual} alt="MiMarca" className="logo-img" />
+      <p className="mv-intro">Somosuna empresa Lojanafundada enel año 2008, creadores deSoftware de
+última tecnología, nuestra actividad gira alrededor de sistemas de gestión
+comercial, implementando soluciones informáticas para pequeñas, medianas y
+grandes empresas del Ecuador. Brindamos sistemas de gestión comercial, ventas
+móviles, facturación electrónica e inteligencia de negocios<span>Asesoría en el Manejo del Sistema Visual Plus</span>  </p>
 
       <div className="mv-grid">
         <div className="mv-card">
           <h2 className="mv-card-title">Misión</h2>
-          <p>
-            Somos una empresa multidisciplinaria que apuesta a la capacitación continuada de sus funcionarios,
-            brindando servicios personalizados y automatizados de auditoría, contabilidad y consultoría a empresas.
-          </p>
+          <p>Cada empresa del país pueda controlar su actividad de gestión comercial con los
+recursos económicos, humanos y financieros que dispone con un alto índice
+de calidad apoyados en nuestros sistemas.</p>
         </div>
 
         <div className="mv-card">
           <h2 className="mv-card-title">Visión</h2>
-          <p>
-            Ser una firma líder en la zona en proveer atención personalizada de servicios de CONTABILIDAD – AUDITORIA –
-            CONSULTORIA, respaldados en la más alta calidad técnica de nuestros profesionales, ejecutando con ética
-            para contribuir al logro de objetivos a corto, mediano y largo plazo.
-          </p>
+          <p>Dar soluciones informáticas de alta calidad y a precios convenientes a la mayoría de
+empresas del país,a través de la implementación del sistema VisualPlus yde
+soluciones WEB.</p>
         </div>
       </div>
     </section>

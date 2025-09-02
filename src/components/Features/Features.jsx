@@ -15,7 +15,7 @@ const Features = () => {
     },
     {
       title: "Módulos personalizables",
-      description: "Adquiere solo lo que necesitas: facturación, inventarios, contabilidad, compras, ventas, retenciones, ATS, nómina, bancos, etc.",
+      description: "Adquiere solo lo que necesitas: facturación, inventarios, contabilidad, compras, ventas, cuentas por cobrar, cuentas por pagar, ATS, nómina, bancos, etc.",
       icon: "🧩"
     },
     {
