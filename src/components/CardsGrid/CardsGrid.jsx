@@ -58,7 +58,7 @@ const images = [
   { id: 17, src: financiero, category: ["person"] },
   { id: 18, src: gasolina, category: ["especif"] },
   { id: 19, src: gerencial, category: ["fact2servi"] },
-  { id: 20, src: ghostadm, category: [""] }, 
+  { id: 20, src: ghostadm, category: ["especif"] }, 
   { id: 22, src: importveh, category: [""] }, 
   { id: 24, src: invent, category: ["factinvent"] },
   { id: 25, src: invoice, category: ["factinvent","factservi"] },
