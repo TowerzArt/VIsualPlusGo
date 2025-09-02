@@ -10,10 +10,10 @@ const Hero = () => {
           <div className="hero-text">
             <h1>La solución integral para el crecimiento de tu empresa</h1>
             <p>VisualPlus es un ERP modular y flexible diseñado para adaptarse a las necesidades específicas de tu negocio. Con una interfaz intuitiva y un rendimiento optimizado, te permite gestionar de manera ágil y segura áreas críticas como ventas, compras, inventarios, contabilidad y recursos humanos.</p>
-            <button className="cta-button">Comenzar ahora</button>
+            <a href="#contacto" className="cta-button">Comenzar ahora</a>
           </div>
           <div className="hero-image">
-            <img src={start}  className="card" alt={"Visual Plus"} /> 
+            <img src={start}   className="card" alt={"Visual Plus"} /> 
           </div>
         </div>
       </div>
