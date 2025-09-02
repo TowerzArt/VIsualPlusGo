@@ -113,11 +113,14 @@ const Contact = () => {
           />
           <small>{message.trim().split(/\s+/).filter(Boolean).length}/{MAX_WORDS} palabras</small>
           
-          {/* reCAPTCHA */}
-          <ReCAPTCHA
-            sitekey="6LcjprorAAAAAN7IcST0EQSaL-Nfmf1nRnCxeUrK"
-            ref={recaptchaRef}
-          />
+{/* reCAPTCHA */}
+<div className="recaptcha-wrapper">
+  <ReCAPTCHA
+    sitekey="6LcjprorAAAAAN7IcST0EQSaL-Nfmf1nRnCxeUrK"
+    ref={recaptchaRef}
+  />
+</div>
+
 
           <button type="submit">Enviar</button>
         </form>
