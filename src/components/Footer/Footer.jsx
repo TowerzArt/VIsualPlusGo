@@ -4,7 +4,7 @@ import logovisual from '../../assets/logos/vp-W.png'
 
 const Footer = () => {
   return (
-    <footer id="contacto" className="footer">
+    <footer id="contact" className="footer">
       <div className="container">
         <div className="footer-content">
           <div className="footer-section">
