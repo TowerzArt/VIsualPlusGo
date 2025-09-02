@@ -1,0 +1,74 @@
+.modulos {
+    padding: 0 0;
+    padding-bottom: 2rem;
+    background: #f8fafc;
+}
+
+.modulos h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #1e293b;
+}
+
+.cards-container {
+  width: 90%; 
+  display: flex;
+  flex-direction: column; /* mantiene tabs arriba y grid abajo */
+  align-items: center;    /* centra horizontalmente todo */
+  margin: 0 auto;               /* centra el grid completo */  
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(66.6px, 99.9px));
+  gap: 9px;
+  max-width: 999px;             /* o el ancho que quieras */
+}
+
+
+.tabs {
+  color: #232530;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #222222;
+}
+
+.tab {
+  color: #232530;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tab.active {
+  color: #232530;
+  font-weight: bold;
+  border-bottom: 2px solid #b46b4c;
+}
+
+
+
+.card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.card:hover {
+  transform: translateY(-4px);
+}
+ 
